@@ -1,6 +1,4 @@
 const express=require('express')
-const pool=require("./config/db")
-const user=require("./models/user")
 const userRouter=require("./routes/userroute")
 const app=express()
 require('dotenv').config()
